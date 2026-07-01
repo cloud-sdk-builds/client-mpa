@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-mpa`](https://www.npmjs.com/package/@aws-sdk/client-mpa/v/3.1076.0).
+[`@aws-sdk/client-mpa`](https://www.npmjs.com/package/@aws-sdk/client-mpa/v/3.1077.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-mpa - [https://cloud-sdk-builds.github.io/?sdk=client-mpa](https://cloud-sdk-builds.github.io/?sdk=client-mpa)
-- @aws-sdk/client-mpa v3.1076.0 - [https://cloud-sdk-builds.github.io/?sdk=client-mpa&version=3.1076.0](https://cloud-sdk-builds.github.io/?sdk=client-mpa&version=3.1076.0)
+- @aws-sdk/client-mpa v3.1077.0 - [https://cloud-sdk-builds.github.io/?sdk=client-mpa&version=3.1077.0](https://cloud-sdk-builds.github.io/?sdk=client-mpa&version=3.1077.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mpa@3.1076.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mpa@3.1077.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-vmrg0XYJhrpOu01+ZGl8xRy/p8C6uc/VL1agPvZ75Hzuj4bYHcM3tdT1+aZfBcRP
+sha384-xx62anrY1Uc+g45eMeIRo3/CyaOcQFsDM5mJC79CKfzYGYcLZA9AGUY2VkIO40xy
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-mpa": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mpa@3.1076.0/index.min.mjs"
+            "@aws-sdk/client-mpa": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mpa@3.1077.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mpa@3.1076.0/index.min.mjs": "sha384-vmrg0XYJhrpOu01+ZGl8xRy/p8C6uc/VL1agPvZ75Hzuj4bYHcM3tdT1+aZfBcRP"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mpa@3.1077.0/index.min.mjs": "sha384-xx62anrY1Uc+g45eMeIRo3/CyaOcQFsDM5mJC79CKfzYGYcLZA9AGUY2VkIO40xy"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-mpa": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mpa@3.1076.0/index.min.mjs"
+                        "@aws-sdk/client-mpa": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mpa@3.1077.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mpa@3.1076.0/index.min.mjs": "sha384-vmrg0XYJhrpOu01+ZGl8xRy/p8C6uc/VL1agPvZ75Hzuj4bYHcM3tdT1+aZfBcRP"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mpa@3.1077.0/index.min.mjs": "sha384-xx62anrY1Uc+g45eMeIRo3/CyaOcQFsDM5mJC79CKfzYGYcLZA9AGUY2VkIO40xy"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1076.0`)
+* Always pin to a specific version (`@3.1077.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-mpa/blob/refs/tags/3.1076.0/LICENSE
+https://github.com/cloud-sdk-builds/client-mpa/blob/refs/tags/3.1077.0/LICENSE
 ```
 
 ---
